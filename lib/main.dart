@@ -7,17 +7,7 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:intl/intl.dart';
 // import 'splash_screen.dart'; // If you have a separate file, keep this. Otherwise, see SplashScreen class below.
-
-// ---- COLORS ----
-const Color primaryColor = Color(0xFF182139); // THE INTENDED DARK BLUE
-const Color lightBackgroundColor = Color(0xFFECEFF1); // Very light Grey
-const Color cardAndInputColor = Colors.white;
-const Color textOnPrimary = Colors.white; // Text on the new dark blue
-const Color textOnSurface = Color(0xFF212121); // Nearly black for good contrast
-const Color unselectedChipTextColor = primaryColor; // Will use the new primaryColor
-const Color unselectedChipBackground = Colors.white;
-const Color scaffoldBodyGradientBottom = Color(0xFFD8E2F0); // Kept very light for soft gradient & legibility
-// ---- END COLORS ----
+import 'colors.dart';
 
 void main() {
   runApp(
